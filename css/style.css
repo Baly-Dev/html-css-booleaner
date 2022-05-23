@@ -1,0 +1,132 @@
+/**** start global page ****/
+body{
+    padding: 0;
+    margin: 0;
+}
+/**** end global page ****/
+
+/**** start global styles ****/
+.light{
+    color: rgb(128, 128, 128);
+}
+
+.text-highlight{
+    color: rgb(31, 169, 229);
+}
+
+.back-highlight{
+    background-color: rgb(255, 254, 0);
+}
+
+.large-column{
+    width: 65%;
+}
+
+.row-highlight{
+    background-color: rgb(179, 228, 242);
+}
+/**** end global styles ****/
+
+/**** start header ****/
+header{
+    padding: 20px 15px;
+    background-color: rgb(78, 160, 255);
+    background-image: url(../media/pattern.png);
+    background-size: 390px;
+    background-repeat: repeat;
+}
+
+header img{
+    margin-top: 8px;
+    width: 180px;
+}
+/**** end header ****/
+
+/**** start main content ****/
+main{
+    padding: 20px 15px;
+}
+
+/** start section 01 **/
+#section01{
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 40px;
+    width: 60%;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+/**  end section 01 **/
+
+/**  start section 02 **/
+#section02 img{
+    width: 49%;
+    height: 600px;
+}
+
+#section02 p{
+    font-size: 13px;
+    margin: 0;
+}
+/** end section 01 **/
+
+/** start section 03 **/
+#section03 p, #section03 li{
+    font-size: 18px;
+}
+
+thead{
+    background-color: rgb(38, 168, 229);
+}
+
+th{
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+}
+
+td{
+    font-size: 16px;
+    padding: 10px 0px;
+}
+/** end section 03 **/
+
+/** start section 04 **/
+#section04 h5{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.image{
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    padding: 15px 12px;
+}
+
+.image p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#first-image{
+    background-image: url(../media/monitor.jpg);
+}
+
+#second-image{
+    background-image: url(../media/graph.jpg);
+}
+/** end section 04 **/
+/**** end main content ****/
